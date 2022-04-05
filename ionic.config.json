@@ -1,0 +1,7 @@
+{
+  "name": "e2e-react",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
