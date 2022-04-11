@@ -19,7 +19,7 @@ config.capabilities = [
     'appium:orientation': 'PORTRAIT',
     'appium:automationName': 'XCUITest',
     // The path to the app
-    'appium:app': './platforms/ios/build/emulator/Ionic Conference App.app',
+    'appium:app': '/Users/aaronksaunders/develop/projects/work-projects/react/e2e-react/ios/DerivedData/1DB27F13-4EF3-4D45-A67B-88C69B53EF84/Build/Products/Debug-iphonesimulator/App.app',
     'appium:newCommandTimeout': 240,
     // This will automatically start the iOS app in a webview context,
     // if your app starts in a native context then please put this to false and handle your own

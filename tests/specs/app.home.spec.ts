@@ -3,7 +3,7 @@ import { clearIndexedDB, pause, restartApp, url, getUrl } from '../helpers';
 import Home from '../pageobjects/home.page';
 import Message from '../pageobjects/message.page'
 
-describe('About', () => {
+describe('Home', () => {
   beforeEach(async () => {
     await restartApp('/home');
     await url('/home');
@@ -30,6 +30,7 @@ describe('About', () => {
       const url = await getUrl();
       expect(url.toString()).toContain('/message/0')
 
+      await pause(500);
       const messageTitle = await Message.messageTitle;
       expect(await messageTitle.getText()).toContain("New event: Trip to Vegas")
 

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "e2e-react",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
