@@ -1,5 +1,5 @@
 # ionic-e2e-react-webdriverio-appium
-ionicv6 react application with e2e testing using webdriverio and appium. 
+Example ReactJS App for Ionic v6 E2E Testing using WebdriverIO and Appium to Test On Device 
 
 ### Overview
 Looking to integrate e2e testing a an ionic-framework application and the [sample provided by Ionic](https://github.com/ionic-team/ionic-e2e-example) in written in Angular and it is based on cordova and not capacitor so I have started this project to figure things out
