@@ -16,7 +16,7 @@ config.capabilities = [
     // http://appium.io/docs/en/writing-running-appium/caps/
     // This is `appium:` for all Appium Capabilities which can be found here
     'appium:deviceName': 'Pixel_3_API_31',
-    'appium:platformVersion': '11',
+    'appium:platformVersion': '12',
     'appium:orientation': 'PORTRAIT',
     'appium:automationName': 'UiAutomator2',
     // The path to the app
