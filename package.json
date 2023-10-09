@@ -79,7 +79,7 @@
     "@wdio/mocha-framework": "^7.19.3",
     "@wdio/sauce-service": "^7.18.1",
     "@wdio/spec-reporter": "^7.19.1",
-    "chromedriver": "100.0.0",
+    "chromedriver": "^117",
     "eslint-plugin-wdio": "^7.4.2",
     "expect-webdriverio": "^3.1.4",
     "jasmine-core": "4.0.1",
