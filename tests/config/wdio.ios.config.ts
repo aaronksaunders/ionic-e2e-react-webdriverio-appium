@@ -15,11 +15,13 @@ config.capabilities = [
     // This is `appium:` for all Appium Capabilities which can be found here
     // http://appium.io/docs/en/writing-running-appium/caps/
     'appium:deviceName': 'iPhone 13 Pro',
+    'appium:udid': '4555db1aa558c5b6d6446758395e369963cfe54b',
     'appium:platformVersion': '15.4',
     'appium:orientation': 'PORTRAIT',
     'appium:automationName': 'XCUITest',
     // The path to the app
-    'appium:app': '/Users/aaronksaunders/develop/projects/work-projects/react/e2e-react/ios/DerivedData/1DB27F13-4EF3-4D45-A67B-88C69B53EF84/Build/Products/Debug-iphonesimulator/App.app',
+    'appium:app':
+      '/Users/aaronksaunders/develop/projects/work-projects/react/e2e-react/ios/DerivedData/1DB27F13-4EF3-4D45-A67B-88C69B53EF84/Build/Products/Debug-iphonesimulator/App.app',
     'appium:newCommandTimeout': 240,
     // This will automatically start the iOS app in a webview context,
     // if your app starts in a native context then please put this to false and handle your own
